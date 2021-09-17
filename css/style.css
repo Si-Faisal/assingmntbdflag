@@ -1,0 +1,96 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+    font-family: 'Oswald', sans-serif;
+	font-size: 14px;
+	line-height: 24px;
+	height: 1283px;
+	
+
+}
+h1,h2,h3,h4,h5{
+	font-family: 'Poppins', sans-serif;
+}
+a,a:hover{
+	text-decoration: none;
+}
+.green{
+	 width: 389px;
+	height: 200px;
+	background-color:green;
+	position: relative;
+}
+.red{
+	width: 200px;
+	height: 150px;
+	background-color: red;
+	border-radius: 100%;
+	position: absolute;
+	top: 10%;
+	left: 20%;
+	
+}
+.navigation{
+	width: 100%;
+	background-color: aqua;
+	margin:12px 0;
+	text-align:center;
+	display: block;
+	position: fixed;
+	
+	
+	
+}
+nav{
+	float: left;
+	margin:13px 3px;
+	background-color: chocolate;
+	padding: 12px 23px;
+	color: beige;
+	
+}
+nav:hover{
+	background-color: brown;
+}
+.social-icon{
+	width: 70%;
+	padding: 25px 0;
+	text-align: center;
+	margin: 6px 0;
+	background-color:hotpink;
+}
+.social-icon li{
+	list-style: none;
+	display: inline-block;
+	
+	
+}
+.social-icon a .fa{
+	display: block;
+	width: 89px;
+	height: 80px;
+	line-height: 80px;
+	margin: 0 6px;
+	border-radius: 100%;
+	font-size: 30px;
+}
+.social-icon a .fa-facebook{
+	background-color: #0D8AF0;
+	color: #FFF;
+}
+.social-icon a .fa-youtube{
+	background-color: #FF0000;
+	color: #FFF;
+}
+
+ .social-icon a .fa-facebook:hover{
+	background-color:cyan;
+	 color: #fff;
+}
+.social-icon a .fa-youtube:hover{
+	background-color:saddlebrown;
+	 color: #fff;
+}
+
